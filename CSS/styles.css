@@ -16,8 +16,8 @@ body {
 }
 
 .user-image {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     margin-right: 10px;
 }
@@ -31,6 +31,7 @@ body {
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
     padding: 10px 25px;
     min-width: 350px;
+    height: 250px;
 }
 
 .user-info {
@@ -42,8 +43,48 @@ body {
     margin: 20px 0;
 }
 
+.user-info h2 {
+    font-size: 35px;
+}
+
 .user-info p {
     background-color: #f0f0f0;
-    padding: 8px;
+    padding: 10px;
     border-radius: 5px;
+    font-size: 15px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 40%;
+    transition: .5s;
+}
+
+.social-icon:hover {
+    opacity: .7;
+}
+
+.facebook { 
+    background-color: #0056b3;
+}
+
+.instagram {
+    background-color:#e92e6f;
+}
+
+.linkedin {
+    background-color: #0077b5;
 }
