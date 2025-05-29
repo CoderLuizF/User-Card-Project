@@ -32,3 +32,18 @@ body {
     padding: 10px 25px;
     min-width: 350px;
 }
+
+.user-info {
+    padding: 10px;
+}
+
+.user-info h2,
+.user-info p {
+    margin: 20px 0;
+}
+
+.user-info p {
+    background-color: #f0f0f0;
+    padding: 8px;
+    border-radius: 5px;
+}
