@@ -8,3 +8,10 @@ body {
     background-color: #e8e8e8;
     font-family: Helvetica;
 }
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
